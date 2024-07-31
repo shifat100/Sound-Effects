@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "Animals Sounds",
+  "description": "Sound Effects, Download And Enjoy.",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/icons/ic_56.png",
+    "112": "/icons/ic_112.png",
+     "128": "/icons/ic_128.png" },
+"fullscreen": "False",
+  "developer": {
+    "name": "Triple Three",
+    "url": "http://tt.softertool.xyz"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Animals Sounds",
+      "subtitle": "Sound Effects",
+      "description": "Sound Effects, Download And Enjoy."
+    }
+  },
+  "default_locale": "en-US",
+"cursor": false,
+"type": "web"
+}

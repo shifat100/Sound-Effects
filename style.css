@@ -1,0 +1,132 @@
+
+body { 
+    margin: 0px; 
+    padding:0px;
+    overflow: hidden;
+    display: block;
+    scroll-behavior: smooth;
+    background: #fff;
+}
+
+
+* {
+    transition: 0.3s;
+    outline: none;
+}
+
+.inline-block {
+    background-color: white;
+    width: 50px;
+    height: 60px;
+    padding: 3px;
+    margin: 10px;
+    display: inline-block;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    clear: both;
+  }
+
+
+.inline-block:hover, .inline-block:focus {  
+    background: #0c9cf0;
+    width: 60px; 
+    height:65px;
+    clear: both;
+}
+
+
+
+.inline-block img {
+    width: 50px;
+    height: 50px;
+}
+
+.inline-block:hover img, .inline-block:focus img {
+    width: 60px;
+    height: 60px; 
+}
+
+.header { 
+background: linear-gradient(#aaa,black);
+border-bottom: 2px solid #ddd;
+font-weight: bold;
+width: 100%;
+display: block;
+position: fixed;
+top: 0px; 
+left: 0px;
+text-align: center;
+padding: 4px;
+color: white;
+ }
+
+.footer {
+display: flex;
+width: 100%;
+background: linear-gradient(black,#aaa);
+border-top: 2px solid #ddd;
+position: fixed;
+left: 0px; 
+bottom: 0px;
+color: white
+}
+
+
+.footer > .block {
+display: block;
+width: 33%;
+text-align: center;
+font-weight: bold;
+padding: 4px;
+} 
+
+.list {
+    padding: 10px;
+    background: #fff;
+    color: black;
+    font-weight: bold;
+    bottom: 0px;
+    display: flex;
+  width: 220px;
+    align-items: center;
+}
+
+
+.list:focus {
+background: #0c9cf0;
+color: rgb(255, 255, 255);
+clear:both;
+}
+
+.list img { 
+    width: 24px;
+    height: 24px; 
+    padding-right: 20px;}
+
+.list:focus img {
+    width: 33px;
+    height: 33px;
+}
+
+.container {
+    position: fixed; 
+    top: 32px;
+    bottom: 28px;
+    overflow: hidden;
+    padding: 0px 0px;
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 300px)  {
+    .list {
+        padding: 10px;
+        background: #fff;
+        color: black;
+        font-weight: bold;
+        bottom: 0px;
+        display: flex;
+        width: 300px;
+        align-items: center;
+    } 
+}
